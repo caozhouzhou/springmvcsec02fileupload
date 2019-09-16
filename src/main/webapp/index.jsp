@@ -16,5 +16,10 @@
         浏览文件<input type="file" name="upload"/></br>
         <input type="submit" value="上传">
     </form>
+
+    <form action="user/testFileUpload02" method="post" enctype="multipart/form-data" >
+        浏览文件<input type="file" name="upload"/></br>
+        <input type="submit" value="上传">
+    </form>
 </body>
 </html>
